@@ -1,0 +1,8 @@
+
+    ~/code/role-problem$ perl -MClass -e 'Class->wrapped_method'
+    ROLE 2
+    ROLE 1
+    ~/code/role-problem$ perl -MSubclass -e 'Subclass->wrapped_method'~/code/role-problem
+    (nothing)
+
+
