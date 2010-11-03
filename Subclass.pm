@@ -2,6 +2,6 @@ package Subclass;
 use Moose;
 
 extends 'Class';
-with 'Role0';
+with qw(Role0 Role3);
 
 1;
